@@ -24,7 +24,7 @@ document.querySelector("#convert-btn").addEventListener("click", () => {
     let cuentaLitros = `${input.value} Liters = ${(input.value * 0.264).toFixed(2)} Gallons / ${input.value} Gallons= ${(input.value / 0.2641).toFixed(2)}Liters`
     liters.textContent = cuentaLitros
 
-    let cuentaKilos = `${input.value} Kilograms = ${(input.value * 2.204).toFixed(2)} Feet / ${input.value} Pounds = ${(input.value / 2.204).toFixed(2)} Kilograms`
+    let cuentaKilos = `${input.value} Kilograms = ${(input.value * 2.204).toFixed(2)} Pounds / ${input.value} Pounds = ${(input.value / 2.204).toFixed(2)} Kilograms`
     kilograms.textContent = cuentaKilos
 
 })
